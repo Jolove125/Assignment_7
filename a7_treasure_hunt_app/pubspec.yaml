@@ -1,0 +1,66 @@
+name: a7_treasure_hunt_app
+description: "A new Flutter project."
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+  flutter_native_splash: ^2.4.8
+  flutter_launcher_icons: ^0.13.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/TTH_logo.png
+    - assets/images/TTH_icon.png
+    - assets/images/beach.png
+    - assets/images/treasure_chest_closed.png
+    - assets/images/treasure_chest_open.png
+    - assets/images/coin.png
+    - assets/images/crown.png
+    - assets/images/emerald.png
+    - assets/images/key.png
+    - assets/images/ruby.png
+    - assets/images/diamond.png
+    - assets/images/gold_bar.png
+    - assets/images/pearl.png
+    - assets/images/cup.png
+    - assets/images/decorations/rock.png
+    - assets/images/decorations/sand_mound.png
+    - assets/images/decorations/seashell.png
+    - assets/images/decorations/wood.png
+    - assets/images/decorations/flip_flops.png
+    - assets/images/decorations/coconut.png
+    - assets/images/decorations/beach_grass.png
+    - assets/images/decorations/sandcastle.png
+    - assets/images/decorations/palm_plant.png
+    - assets/images/decorations/starfish.png
+
+flutter_native_splash:  # Customize the flutter splash screen
+  image: assets/images/TTH_icon.png
+  color: "#FFFFFF"
+  android: true
+  ios: false
+  android_12:
+    color: "#FFFFFF"
+    image: assets/images/TTH_icon.png
+
+flutter_launcher_icons:
+  android: true
+  ios: false
+  image_path: assets/images/TTH_icon.png
